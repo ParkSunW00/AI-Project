@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Traffico</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="{{url_for('static', filename='css/bootstrap.min.css')}}" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="{{url_for('static', filename='css/mdb.min.css')}}" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="{{url_for('static', filename='css/style.min.css')}}" rel="stylesheet">
+  <!-- 나눔 바른 고딕 웹 폰트 적용하기 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css">
+  <style type="text/css">
+
+    html,
+    body,
+    header,
+    .carousel {
+      height: 100%;
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+            .navbar:not(.top-nav-collapse) {
+                background: #1C2331!important;
+            }
+        }
+
+    .hangul {
+        font-family: 'Nanum Barun Gothic' !important;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+    <div class="container">
+
+      <!-- Brand -->
+      <a class="navbar-brand" href="#" target="_blank">
+        <strong class="hangul">TRAFFICO</strong>
+      </a>
+
+      <!-- Collapse -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Left -->
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+
+        <!-- Right -->
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            <a href="https://www.facebook.com/Dongbin.na" class="nav-link" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.instagram.com/dongbin_na/" class="nav-link" target="_blank">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://github.com/ndb796/Vegita" class="nav-link border border-light rounded"
+              target="_blank">
+              <i class="fa fa-github mr-2"></i>GitHub
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- Navbar -->
+
+  <!--Carousel Wrapper-->
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop>
+            <source src="https://r1---sn-oguelner.googlevideo.com/videoplayback?lmt=1541407059513960&fvip=1&c=WEB&source=youtube&clen=174877246&txp=2311222&pl=22&ip=185.237.80.233&key=cms1&keepalive=yes&signature=2D8C167E7987EBF3C9AF0C8EA9DA79699911C27D.3877501AD91B8058A8EA51473887C854D7B43185&gir=yes&ipbits=0&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278&requiressl=yes&sparams=aitags,clen,dur,ei,expire,gir,id,ip,ipbits,itag,keepalive,lmt,mime,mip,mm,mn,ms,mv,pl,requiressl,source&dur=306.866&ei=4NYuXKjsENqF8gO4h7aYCg&itag=137&mime=video%2Fmp4&expire=1546595136&id=o-AIQ44SQ2OgTRn-Y7f47_35k7YDpfSDHIPja_4Pwl0RcI&video_id=NitvWx7n7tE&title=%EC%B2%A0%EC%9B%90+%EA%B3%A0%EB%9E%AD%EC%A7%80+%EC%A0%88%EC%9E%84%EB%B0%B0%EC%B6%94+%ED%95%84%EC%9A%94%ED%95%98%EC%8B%9C%EB%A9%B4...%28%EB%8C%93%EA%B8%80%EB%9E%80%EC%97%90+%ED%99%88%ED%94%BC%EC%A3%BC%EC%86%8C+%EB%A7%81%ED%81%AC%ED%95%A9%EB%8B%88%EB%8B%A4%29&redirect_counter=1&cm2rm=sn-nv4sk7e&fexp=9420243&req_id=a4faa9d54830a3ee&cms_redirect=yes&mip=42.82.107.185&mm=34&mn=sn-oguelner&ms=ltu&mt=1546572862&mv=u" type="video/mp4" >
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Nanum Barun Gothic'">Traffic Casualty forecasting Machine</strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Nanum Barun Gothic'">Quickly and accurately predict Traffic Casulty</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>This is testbed for in-service training for INTEL AI4Y</strong>
+              </p>
+
+              <a target="_blank" href="https://github.com/ndb796/Vegita" class="btn btn-outline-white btn-lg">LET'S GO GITHUB
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/First slide-->
+
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop>
+              <source src="https://r3---sn-ogueln7r.googlevideo.com/videoplayback?itag=137&ei=gNYuXN27D8G_yAWjh7ywAQ&fvip=7&requiressl=yes&keepalive=yes&mime=video%2Fmp4&ipbits=0&pl=22&key=cms1&pcm2=no&signature=2FAED75ED7F3625DC51E5713B9086C057E38B9B0.1B88EFEF2E066425E0DEC62D228774D4AEF0635E&sparams=aitags,clen,dur,ei,expire,gir,id,ip,ipbits,ipbypass,itag,keepalive,lmt,mime,mip,mm,mn,ms,mv,pcm2,pl,requiressl,source&ip=94.243.140.162&lmt=1531308454163826&expire=1546595040&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C313&clen=322631183&source=youtube&gir=yes&c=WEB&id=o-AMBLkfxRs8tFzb0RPkbPpSa_255Kv45QUotnOjgj7E-4&dur=599.533&video_id=UEBeOY7VbKY&title=%EC%82%BC%EC%B2%99%EC%8B%9C+%EB%8F%84%EA%B3%84%EC%9D%8D+%EC%99%B8%EC%A7%84%EA%B3%B3+%EC%82%B0%EA%B3%A8%EC%97%90+%ED%8C%8C%EB%9E%80+%EA%B3%A0%EB%9E%AD%EC%A7%80+%EB%B0%B0%EC%B6%94%EB%B0%AD+%EA%B1%B4%EB%84%88+%ED%8A%B9%EC%9D%B4%ED%95%9C+&rm=sn-n8vrl7k&req_id=b523747b5951a3ee&ipbypass=yes&mip=42.82.107.185&cm2rm=sn-ixaav8pnpvo-pjol7z,sn-oguks7d&redirect_counter=3&cms_redirect=yes&mm=34&mn=sn-ogueln7r&ms=ltu&mt=1546572862&mv=u" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Nanum Barun Gothic'">Tensorflow</strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Nanum Barun Gothic'">Tensorflow is Google's deep-running open source package</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong></strong>
+              </p>
+
+              <a target="_blank" href="https://github.com/ndb796/Vegita" class="btn btn-outline-white btn-lg">LET'S GO GITHUB
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Second slide-->
+
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="view">
+
+          <!--Video source-->
+          <video class="video-intro" autoplay loop>
+              <source src="https://r1---sn-ogueln7k.googlevideo.com/videoplayback?requiressl=yes&sparams=aitags,clen,dur,ei,expire,gir,id,ip,ipbits,itag,keepalive,lmt,mime,mip,mm,mn,ms,mv,pl,requiressl,source&fvip=1&source=youtube&aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C271%2C278%2C298%2C299%2C302%2C303%2C308%2C313%2C315&lmt=1540038637173180&txp=2201222&dur=54.087&itag=299&gir=yes&clen=38601602&signature=55B14AB3031FB544FA0C45486434FF704BB177BA.706BAE5F87F1A7758E30508393D10129C7B8E504&mime=video%2Fmp4&key=cms1&expire=1546595098&c=WEB&ei=utYuXMndKdvn1gK7jarADw&keepalive=yes&pl=22&id=o-APzEDM4fQ6SC_kB-ebfUpr9Y2BFDdUwv_o_JAUZ9_M-7&ip=213.32.252.120&ipbits=0&video_id=JeTIPQxKfg8&title=%5B%EC%A0%88%EC%9E%84%EB%B0%B0%EC%B6%94%5D+%EA%B0%95%EC%9B%90%EB%8F%84+%EA%B3%A0%EB%9E%AD%EC%A7%80+%ED%8F%89%EC%B0%BD+%EC%A0%88%EC%9E%84%EB%B0%B0%EC%B6%94&rm=sn-30gqpnu5ooxu-xcae7e&req_id=407650d52a59a3ee&redirect_counter=2&cm2rm=sn-4g5elz7e&cms_redirect=yes&mip=42.82.107.185&mm=34&mn=sn-ogueln7k&ms=ltu&mt=1546572862&mv=u" type="video/mp4">
+          </video>
+
+          <!-- Mask & flexbox options-->
+          <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            <!-- Content -->
+            <div class="text-center white-text mx-5 wow fadeIn">
+              <h1 class="mb-4">
+                <strong style="font-family: 'Nanum Barun Gothic'">DeepLearning , BigData</strong>
+              </h1>
+
+              <p>
+                <strong style="font-family: 'Nanum Barun Gothic'">It collects and calculates 3,000 pieces of data</strong>
+              </p>
+
+              <p class="mb-4 d-none d-md-block">
+                <strong>Daily caualty of traffic accident and weather data were collected.</strong>
+              </p>
+
+              <a target="_blank" href="https://github.com/ndb796/Vegita" class="btn btn-outline-white btn-lg">LET'S GO GITHUB
+                <i class="fa fa-graduation-cap ml-2"></i>
+              </a>
+            </div>
+            <!-- Content -->
+
+          </div>
+          <!-- Mask & flexbox options-->
+
+        </div>
+      </div>
+      <!--/Third slide-->
+
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+
+  </div>
+  <!--/.Carousel Wrapper-->
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+
+      <!--Section: Main info-->
+      <section class="mt-5 wow fadeIn">
+
+        <!--Grid row-->
+        <div class="row">
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <img src="{{url_for('static', filename='img/graph.png')}}" class="img-fluid z-depth-1-half" alt="">
+
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+
+            <!-- Main heading -->
+            <h3 class="h3 mb-3" style="font-family: 'Nanum Barun Gothic'">Tensorflow</h3>
+            <p style="font-family: 'Nanum Barun Gothic'">Tensorflow is Google's deep-running open source package
+              <strong style="font-family: 'Nanum Barun Gothic'"></strong> </p>
+            <p></p>
+            <!-- Main heading -->
+
+            <hr>
+
+            <p style="font-family: 'Nanum Barun Gothic'">
+            More than <strong>3,500</strong>data
+              Less than <strong>10%</strong> error rate
+              <strong>Traffico Traffic Casulaty prediction model</strong>
+            </p>
+
+            <!-- CTA -->
+            <a target="_blank" href="http://cafe.naver.com/johnkimschool"
+              style="font-family: 'Nanum Barun Gothic'" class="btn btn-grey btn-md">SourceCode Download
+              <i class="fa fa-download ml-1"></i>
+            </a>
+
+          </div>
+          <!--Grid column-->
+
+        </div>
+        <!--Grid row-->
+
+      </section>
+      <!--Section: Main info-->
+
+      <hr class="my-5">
+
+      <!--Section: Main features & Quick Start-->
+      <section>
+
+        <h3 class="h3 text-center mb-5" style="font-family: 'Nanum Barun Gothic'">ForeCasTing</h3>
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12 px-4">
+
+            <form action="/" method="post">
+              <!-- Default form group -->
+
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">AvgTemp</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="avg_temp" class="form-control" id="formGroupExampleInput" placeholder="온도를 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">avg_rain</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="avg_rain" class="form-control" id="formGroupExampleInput" placeholder="강수량을 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">wind_vel</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="wind_vel" class="form-control" id="formGroupExampleInput" placeholder="풍속을 입력하세요.">
+                  </div>
+                  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">humidity</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="humidity" class="form-control" id="formGroupExampleInput" placeholder="습도를 입력하세요.">
+                  </div>
+				  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">sunshine</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="sunshine" class="form-control" id="formGroupExampleInput" placeholder="일조량을 입력하세요.">
+                  </div>
+				  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">snowfall</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="snowfall" class="form-control" id="formGroupExampleInput" placeholder="적설량을 입력하세요.">
+                  </div>
+				  <!-- Default input -->
+                  <div class="form-group">
+                      <label style="font-family: 'Nanum Barun Gothic'" for="formGroupExampleInput">suf_temp</label>
+                      <input style="font-family: 'Nanum Barun Gothic'" type="text" name="suf_temp" class="form-control" id="formGroupExampleInput" placeholder="표면온도를 입력하세요.">
+                  </div>
+              <!-- Default form group -->
+              <button style="font-family: 'Nanum Barun Gothic' !important;" type="submit" class="btn btn-primary btn-md pull-right">ForeCasting</button>
+
+            </form>
+
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-12">
+
+            <p class="h5 text-center mb-4" style="font-family: 'Nanum Barun Gothic'">Casualty Forecasting</p>
+            {% if casualty %}
+              <h5 class="text-center mt-3">Casualty are {{ casualty }} Persons.</h5>
+            {% endif %}
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Grid row-->
+
+      </section>
+      <!--Section: Main features & Quick Start-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      <a class="btn btn-outline-white" href="https://cafe.naver.com/johnkimschool" target="_blank" role="button">LET'S INTEL AI4Y
+        <i class="fa fa-graduation-cap ml-2"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2018 Copyright:
+      <a href="https://blog.naver.com/ndb796" target="_blank"> Create By John Kim School </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/jquery-3.3.1.min.js')}}"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="{{url_for('static', filename='js/mdb.min.js')}}"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
